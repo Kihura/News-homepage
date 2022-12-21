@@ -3,7 +3,13 @@
     display: none;
 }
 
+.t1 h2:hover ,.t2 h2:hover ,.t3 h2:hover{
+    color: hsl(35, 77%, 62%);
+}
 
+.wrap1 h2:hover,.wrap2 h2:hover,.wrap3 h2:hover{
+    color: hsl(5, 85%, 63%);
+}
 .navbar-pc {
     display: flex;
     position: fixed;
@@ -34,7 +40,9 @@
     margin: 0;
     padding: 0;
 }
-
+.navbar-links ul li a:hover{
+    color: hsl(5, 85%, 63%);
+}
 .navbar-links li {
     list-style: none;
 }
@@ -119,6 +127,10 @@
 .t1,.t2{
 
     border-bottom: gray solid 1px ;
+}
+
+.grid3 button:hover{
+    background-color:hsl(240, 100%, 5%) ;
 }
 @media (min-width: 600px) {
     #nav-mobile{
